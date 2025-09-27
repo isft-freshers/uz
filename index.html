@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" sizes="256x256"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>ISFT Freshers</title>
+    <meta name="description" content="Foydali qo'llanma. Jadval, klub va volontyorlik — hammasi bir joyda">
+    <meta property="og:title" content="ISFT Freshers" />
+    <meta property="og:description" content="Foydali qo'llanma. Jadval, klub va volontyorlik — hammasi bir joyda" />
+    <meta property="og:image" content="./img/og-img.png" />
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=104290404', 'ym');
+
+        ym(104290404, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/104290404" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-row--desktop">
+                <div class="header__left">
+                    <a href="#!">ISFT</a>
+                </div>
+                <div class="header__right">
+                    <a href="#schedule" class="header-right__item">Jadval</a>
+                    <a href="#tour" class="header-right__item">Qisqa tur</a>
+                    <a href="#familiarity" class="header-right__item">Kim kim</a>
+                    <a href="#volunteer" class="header-right__item">Ko‘ngillilar va klublar</a>
+                    <a href="#!" class="header-right__btn"><svg aria-hidden="true" width="24" height="24"><use href="#icon-language" /></svg></a>
+                </div>
+            </div>
+            <div class="header-row--mobile">
+                <div class="header-row--mobile-top">
+                    <div class="header__left--mobile">
+                        <a href="#!">ISFT</a>
+                    </div>
+                    <div class="header__right--mobile">
+                        <button id="open-mobile-menu"><svg aria-hidden="true" width="24" height="24"><use href="#icon-burger"/></svg></button>
+                    </div>
+                </div>
+                <div class="header-row--mobile-bottom">
+                    <div id="mobile-menu" class="header-mobile__bottom">
+                        <section class="header-mobile__section">
+                            <a href="https://isft-freshers.github.io/ru/" class="menu-element">RU версия</a>
+                            <a href="#schedule" class="menu-element">Jadval</a>
+                            <a href="#tour" class="menu-element">Qisqa tur</a>
+                            <a href="#familiarity" class="menu-element">Kim kim</a>
+                            <a href="#volunteer" class="menu-element">Ko‘ngillilar va klublar</a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-page" class="main">
+            <section class="first-screen">
+                <div class="container">
+                    <div class="first-screen__row">
+                    <div class="first-screen__left">
+                        <h1>ISFT Freshers Bir haftada hammasini bilib oling</h1>
+                        <p>Bu rasmiy sayt emas. Bu — talabalarga qulay, meme‑friendly, foydali qo'llanma. Jadval, klub va volontyorlik — hammasi bir joyda.</p>
+                    </div>
+                    <div class="first-screen__right">
+                        <img src="./img/isft-students.webp" alt="Студенты ISFT">
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container">
+                <section class="congratulation section-content">
+                    <h2>Rektor tabrig</h2>
+                    <div class="block-quote">
+                        <div class="block-quote__top">
+                            <div class="block-quote__top--left">
+                                <img src="./img/staff/gulomov-ibrohim.webp" alt="">
+                            </div>
+                            <div class="block-quote__top--right">
+                                <span>G'ulomov Ibroxim Rustam o'g'li</span>
+                                <div class="tag"><svg aria-hidden="true" width="24" height="24"><use href="#icon-hat" /></svg>ISFT instituti rektori</div>
+                            </div>
+                        </div>
+                        <div class="block-quote__bottom">
+                            <p>Bu o'zgacha davr. Yangi do'stlar, yangi marralar, avval duch kelinmagan qiyinchiliklar va bu to'siqlarda toblanib, shaxs bo'lib yetishish vaqti.</p>
+                            <p>Shu bilan birga oldinda juda ko‘p kashfiyotlar, emotsiyalar va avval bo‘lmagan imkoniyatlar kutyapti. Sizlar – yangi avlodsiz. Aynan o‘sha kelajakni yaratadigan insonlarsiz. </p>
+                            <p>Hech qachon taslim bo'lmang, hatto oldingizda hech qanday yo'l yo'q bo'lib ko'rinsa-da o'z yo'lingizni izlashdan to'xtamang. Universitet – bu faqat kitoblar va darslar emas, balki do‘stlar, g‘oyalar, loyihalar va yillar davomida esda qoladigan lahzalardir.</p>
+                            <p>Shu sababli – qo‘rqmang, harakat qiling! Talabalikdan maksimal foydalaning: bilim, taassurot va tajribani yig‘ib boring. Biz sizga ishonamiz va bilamiz – hammasi albatta qo‘lingizdan keladi. ISFT oilasiga xush kelibsiz!</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="schedule" class="schedule section-content">
+                    <h2>Расписание Introduction Week</h2>
+                    <p>Расписание примерное. Сверяйтесь с официальными каналами для точных времени и локаций</p>
+
+                    <div class="schedule__shifts">
+                        <button data-shift="1" class="shift-btn active"><svg aria-hidden="true" width="24" height="24"><use href="#icon-shift" /></svg>1-navbat</button>
+                        <button data-shift="2" class="shift-btn"><svg aria-hidden="true" width="24" height="24"><use href="#icon-shift" /></svg>2-navbat</button>
+                        <button data-shift="3" class="shift-btn"><svg aria-hidden="true" width="24" height="24"><use href="#icon-shift" /></svg>3-navbat</button>
+                        <button data-shift="4" class="shift-btn"><svg aria-hidden="true" width="24" height="24"><use href="#icon-shift" /></svg>4-navbat</button>
+                    </div>
+
+                    <div data-shift="1" class="schedule-cards first-shift">
+                        <div class="schedule-card__item">
+                            <h3>Dushanba</h3>
+                            <ul>
+                                <li>Yig’ilish va joylarni egallash (09:00-10:00)</li>
+                                <li>Rektor tabrik so’zi (10:00-10:15)</li>
+                                <li>Marketing bo’limi taqdimoti (10:15-10:30)</li>
+                                <li>Welcome gifts (10:30-10:45)</li>
+                                <li>Mentorlar yordamida guruhlarga bo’linish (10:45-11:00)</li>
+                            </ul>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Seshanba</h3>
+                            <b>Academic Day</b>
+                            <p>Akademic day-bunda akademik bo’lim tomonidan qoidalar va o’qish tartiblari xonalar kesimida tushuntiriladi va savollarga javob beriladi</p>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Chorshanba</h3>
+                            <p>1-oktyabr ustoz va murabbiylar kuni munosabati bilan barchaga dam beriladi va bu kunda hech bir talaba institutga tashrif buyurmaydi</p>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Payshanba</h3>
+                            <b>TBS day</b>
+                            <p>”Tashkent Business School” tomonidan taqdimot qilinadi </p>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Juma</h3>
+                            <b>Sport day</b>
+                            <ul>
+                                <li>Bubble Football (09:00-17:00)</li>
+                                <li>Archery Tag (09:00-17:00)</li>
+                            </ul>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Shanba</h3>
+                            <b>Konsert kuni</b>
+                            <ul>
+                                <li>Havas binosida barcha talabalar bilan konsert o’tkaziladi (17:00 - 21:00)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div data-shift="2" hidden class="schedule-cards first-shift">
+                        <div class="schedule-card__item">
+                            <h3>Dushanba</h3>
+                            <ul>
+                                <li>Yig’ilish va joylarni egallash (11:00-12:00)</li>
+                                <li>Rektor tabrik so’zi (12:00-12:15)</li>
+                                <li>Marketing bo’limi taqdimoti (12:15-12:30)</li>
+                                <li>Welcome gifts (12:30-12:45)</li>
+                                <li>Mentorlar yordamida guruhlarga bo’linish (12:45-13:00)</li>
+                            </ul>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Seshanba</h3>
+                            <b>Academic Day</b>
+                            <p>Akademic day-bunda akademik bo’lim tomonidan qoidalar va o’qish tartiblari xonalar kesimida tushuntiriladi va savollarga javob beriladi</p>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Chorshanba</h3>
+                            <p>1-oktyabr ustoz va murabbiylar kuni munosabati bilan barchaga dam beriladi va bu kunda hech bir talaba institutga tashrif buyurmaydi</p>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Payshanba</h3>
+                            <b>TBS day</b>
+                            <p>”Tashkent Business School” tomonidan taqdimot qilinadi </p>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Juma</h3>
+                            <b>Sport day</b>
+                            <ul>
+                                <li>Bubble Football (09:00-17:00)</li>
+                                <li>Archery Tag (09:00-17:00)</li>
+                            </ul>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Shanba</h3>
+                            <b>Konsert kuni</b>
+                            <ul>
+                                <li>Havas binosida barcha talabalar bilan konsert o’tkaziladi. (17:00 - 21:00)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div data-shift="3" hidden class="schedule-cards first-shift">
+                        <div class="schedule-card__item">
+                            <h3>Dushanba</h3>
+                            <ul>
+                                <li>Yig’ilish va joylarni egallash (13:00-14:00)</li>
+                                <li>Rektor tabrik so’zi (14:00-14:15)</li>
+                                <li>Marketing bo’limi taqdimoti (14:15-14:30)</li>
+                                <li>Welcome gifts (14:30 - 14:45)</li>
+                                <li>Mentorlar yordamida guruhlarga bo’linish (14:45-15:00)</li>
+                            </ul>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Seshanba</h3>
+                            <b>Academic Day</b>
+                            <p>Akademic day-bunda akademik bo’lim tomonidan qoidalar va o’qish tartiblari xonalar kesimida tushuntiriladi va savollarga javob beriladi</p>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Chorshanba</h3>
+                            <p>1-oktyabr ustoz va murabbiylar kuni munosabati bilan barchaga dam beriladi va bu kunda hech bir talaba institutga tashrif buyurmaydi</p>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Payshanba</h3>
+                            <b>TBS day</b>
+                            <p>”Tashkent Business School” tomonidan taqdimot qilinadi</p>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Juma</h3>
+                            <b>Sport day</b>
+                            <ul>
+                                <li>Bubble Football (09:00-17:00)</li>
+                                <li>Archery tag (09:00-17:00)</li>
+                            </ul>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Shanba</h3>
+                            <b>Konsert kuni</b>
+                            <ul>
+                                <li>Havas binosida barcha talabalar bilan konsert o’tkaziladi. (17:00 - 21:00)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div data-shift="4" hidden class="schedule-cards first-shift">
+                        <div class="schedule-card__item">
+                            <h3>Dushanba</h3>
+                            <ul>
+                                <li>Yig’ilish va joylarni egallash (15:00-16:00)</li>
+                                <li>Rektor tabrik so’zi (16:00-16:15)</li>
+                                <li>Marketing bo’limi taqdimoti (16:15-16:30)</li>
+                                <li>Welcome gifts (16:30-16:45)</li>
+                                <li>Mentorlar yordamida guruhlarga bo’linish (16:45-17:00)</li>
+                            </ul>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Seshanba</h3>
+                            <b>Academic Day</b>
+                            <p>Akademic day-bunda akademik bo’lim tomonidan qoidalar va o’qish tartiblari xonalar kesimida tushuntiriladi va savollarga javob beriladi</p>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Chorshanba</h3>
+                            <p>1-oktyabr ustoz va murabbiylar kuni munosabati bilan barchaga dam beriladi va bu kunda hech bir talaba institutga tashrif buyurmaydi</p>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Payshanba</h3>
+                            <b>TBS day</b>
+                            <p>”Tashkent Business School” tomonidan taqdimot qilinadi</p>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Juma</h3>
+                            <b>Sport day</b>
+                            <ul>
+                                <li>Bubble Football (09:00-17:00)</li>
+                                <li>Archery Tag (09:00-17:00)</li>
+                            </ul>
+                        </div>
+                        <div class="schedule-card__item">
+                            <h3>Shanba</h3>
+                            <b>Konsert kuni</b>
+                            <ul>
+                                <li>Havas binosida barcha talabalar bilan konsert o’tkaziladi (17:00-21:00)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="social-media section-content">
+                    <span>Biz ijtimoiy tarmoqdamiz</span>
+                    <p>Barcha dolzarb yangiliklardan xabardor bo‘lish uchun obuna bo‘ling!</p>
+                    <div class="sm-links">
+                        <a class="tag" href="#!"><svg aria-hidden="true" width="24" height="24"><use href="#icon-telegram"/></svg>Telegram</a>
+                        <a class="tag" href="#!"><svg aria-hidden="true" width="24" height="24"><use href="#icon-instagram" /></svg>Instagram</a>
+                    </div>
+                </section>
+
+                <section id="tour" class="tour section-content">
+                    <h2>3 bino — qisqa kampus tour</h2>
+                    <p style="margin: 40px 0;">Har binoda kimni qayerdan topsa bo'ladi? Topshiriqlar bilan tanishing.</p>
+                    <!-- Обёртка для адаптивного видео 16:9 -->
+                    <div class="video-embed">
+                    <iframe
+                        src="https://www.youtube.com/embed/XLPz9SV7cTo?si=KEyLLoWfZi28FQFV"
+                        title="Tanishing - Sizga kerakli manzillar | ISFT binolari"
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                    ></iframe>
+                    </div>
+
+                    <div class="tour-locations">
+                        <div class="tour-locations__item">
+                            <h3>ECO</h3>
+                            <p>Asosiy ma'muriy va akademik blok</p>
+                            <ul>
+                                <li>Dekanati: dars jadvali va talabalik masalalari</li>
+                                <li>IT yordam: Wi‑Fi, LMS, e‑mail</li>
+                                <li>Kutubxona: darsliklar, o'quv zonalari</li>
+                            </ul>
+                            <a class="tag" href="https://go.2gis.com/VpRVs"><svg aria-hidden="true" width="24" height="24"><use href="#icon-location"/></svg>Joylashuvi</a>
+                        </div>
+                        <div class="tour-locations__item">
+                            <h3>Maksim Gorkiy</h3>
+                            <p>Sport va tadbirlar markazi</p>
+                            <ul>
+                                <li>Sport zali va ochiq maydon</li>
+                                <li>Student Union: loyiha va tadbirlar</li>
+                                <li>Tutor: guruh savollari, yo'riqnoma</li>
+                            </ul>
+                            <a class="tag" href="https://go.2gis.com/Qe47W"><svg aria-hidden="true" width="24" height="24"><use href="#icon-location"/></svg>Joylashuvi</a>
+                        </div>
+                        <div class="tour-locations__item">
+                            <h3>Havas</h3>
+                            <p>Laboratoriyalar va media zonalar</p>
+                            <ul>
+                                <li>Media zona: kontent va klub</li>
+                                <li>IT yordam: Wi‑Fi, LMS, e‑mail</li>
+                                <li>Tutor: guruh savollari, yo'riqnoma</li>
+                            </ul>
+                            <a class="tag" href="https://go.2gis.com/P32oP"><svg aria-hidden="true" width="24" height="24"><use href="#icon-location"/></svg>Joylashuvi</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="familiarity" class="familiarity section-content">
+                    <h2>Kim kim?</h2>
+                    <p style="margin: 40px 0;">Rahbariyat va xizmatlar bo'yicha kontaktlar</p>
+                    <!-- Обёртка для адаптивного видео 16:9 -->
+                    <div class="video-embed">
+                    <iframe
+                        src="https://www.youtube.com/embed/StNwQEwzlkE?si=J99O6eNKwIdayZFE"
+                        title="Mas'ul shaxslar bilan tanishishingiz uchun ma'lumotnoma"
+                        loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                    ></iframe>
+                    </div>
+
+                    <h3>Talabalar hayotida bevosita ishtirok etadigan xodimlar va bo’limlar</h3>
+                    <div class="staff">
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/akbarov-dilmurod-muhammadovich.webp" alt="">
+                                <h4>Akbarov Dilmurod Maxammadovich</h4>
+                                <span>Registrator ofis Bosh mutaxassis</span>
+                                <p>Davomat, dars jadvali, ma’lumotnoma va o’quv ishlari boyicha barcha savollarga javob beruvchi shaxs</p>
+                            </div>
+                            <div class="staff-item__bottom">
+                                <a class="tag-staff" target="_blank" href="https://go.2gis.com/Qe47W">Asosiy bino 206 xona </a>
+                                <a class="tag-staff" href="tel:+998908304066">+998 90 830 40 66</a>
+                            </div>
+                        </div>
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/abdusharipov-zafarbek.webp" alt="">
+                                <h4>Abdusharipov Zafarbek Ilxomovich </h4>
+                                <span>Imtixon bo’lim rahbari</span>
+                                <p>Imtixon, apelatsiya va javoblari masalalri boy’icha barcha savollarga javob olishingiz mumkun</p>
+                            </div>
+                            <div class="staff-item__bottom">
+                                <a class="tag-staff" target="_blank" href="https://go.2gis.com/VpRVs">Eko bino 601 xona</a>
+                                <a class="tag-staff" href="tel:+998911660888">+998 91 166 08 88</a>
+                            </div>
+                        </div>
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/atamatova-mardjona-adhamovna.webp" alt="">
+                                <h4>Atamatova Marjona Adhamovna</h4>
+                                <span>Marketing bo’lim rahbari</span>
+                                <p>Ajoyib kantent yoki talabalar uchun evant g’oyalar bormi? media yo’nalishiga istedodingiz bo’lsa murojat qilisgingiz mumkun</p>                                
+                            </div>
+                            <div class="staff-item__bottom">
+                                <a class="tag-staff" target="_blank" href="https://go.2gis.com/Qe47W">Asosiy bino 504 xona</a>
+                                <a class="tag-staff" target="_blank" href="https://t.me/marjona_work">t.me/marjona_work</a>
+                            </div>
+                        </div>
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/tillashayhova-shahnoza.webp" alt="">
+                                <h4>Tillashayxova Shaxnoza </h4>
+                                <span>Axborot resurslari markazi (kutubxona) bosh mutaxssisi</span>
+                            </div>
+                            <div class="staff-item__bottom">
+                                <a class="tag-staff" target="_blank" href="https://go.2gis.com/Qe47W">Asosiy bino 110 xona</a>
+                                <a class="tag-staff" href="tel:+998334011419">+998 33 401 14 19</a>
+                            </div>
+                        </div>
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/fin-dep.webp" alt="">
+                                <h4>Moliya bo’limi </h4>
+                                <p>Kontrakt masalasi va tolovlar bo’yicha barcha savollarga javob olishingiz mumkun</p>
+                            </div>
+                            <div class="staff-item__bottom">
+                                <a class="tag-staff" target="_blank" href="https://go.2gis.com/Qe47W">Asosiy bino 201 xona</a>
+                                <a class="tag-staff" href="tel:+998911340222">+998 91 134 02 22</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Rektarat</h3>
+                    <div class="staff">
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/gulomov-ibrohim.webp" alt="">
+                                <h4>G'ulomov Ibroxim Rustam o'g'li</h4>
+                                <span>ISFT instituti rektori</span>
+                            </div>
+                        </div>
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/azizov-to’xtamish.webp" alt="">
+                                <h4>Azizov To’xtamish A'zamovich</h4>
+                                <span>Ilmiy ishlar va innovatsiyalar bo'yicha prorektor</span>
+                            </div>
+                        </div>
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/temirov-anvar.webp" alt="">
+                                <h4>Temirov Anvar Amir o'g'li</h4>
+                                <span>O‘quv ishlari bo‘yicha prorektor</span>
+                            </div>
+                        </div>
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/nakuziyeva-zulxumor.webp" alt="">
+                                <h4>Narkuziyeva Zulxumor Meliboyevna</h4>
+                                <span>Yoshlar masalalari va ma’naviy-ma’rifiy ishlar bo‘yicha birinchi prorektor v.v.b</span>
+                            </div>
+                        </div>
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/sharipov-asliddin.webp" alt="">
+                                <h4>Sharipov Asliddin Fazlitdin o'g'li</h4>
+                                <span>Moliya ishlari bo‘yicha prorektor </span>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Kafedra mudirlari </h3>
+                    <div class="staff">
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/uktamov-xusniddin.webp" alt="">
+                                <h4>Uktamov Xusniddin</h4>
+                                <span>“Biznes boshqaruv” kafedrasi mudiri</span>
+                                <p>Biznes boshqaruv kafedrasida o’qiydigan talabalar uchun darslar va o’qituvchilar bo’yicha barcha savollarga javob olshingiz mumkun</p>
+                            </div>
+                            <div class="staff-item__bottom">
+                                <a class="tag-staff" target="_blank" href="">Havas bino 103 xona </a>
+                                <a class="tag-staff" target="_blank" href="https://t.me/Aghjjg7755">t.me/Aghjjg7755</a>
+                            </div>
+                        </div>
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/xalilov-sherzod.webp" alt="">
+                                <h4>Xalilov Sherzod</h4>
+                                <span>“Buxgalteriya xisobi” kafedrasi mudiri</span>
+                                <p>Buxgalteriya xisobi kafedrasida o’qiydigan talabalar uchun darslar va o’qituvchilar bo’yicha barcha savollarga  javob olshingiz mumkun</p>
+                            </div>
+                            <div class="staff-item__bottom">
+                                <a class="tag-staff" target="_blank" href="https://go.2gis.com/VpRVs">Eko bino 501 xona</a>
+                                <a class="tag-staff" target="_blank" href="https://t.me/Khalilov2800">t.me/Khalilov2800</a>
+                            </div>
+                        </div>
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/usmonov-adxamjon.webp" alt="">
+                                <h4>Usmonov Adxamjonн</h4>
+                                <span>“Menejment” kafedrasi mudiri</span>
+                                <p>Menejment kafedrasida  o’qiydigan talabalar uchun darslar va o’qituvchilar bo’yicha barcha savollarga javob olshingiz mumkun</p>                                
+                            </div>
+                            <div class="staff-item__bottom">
+                                <a class="tag-staff" target="_blank" href="">Havas bino 105  xona</a>
+                                <a class="tag-staff" target="_blank" href="tel:+998903030536">+998 90 303 05 36</a>
+                            </div>
+                        </div>
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/abdusamatov-hasanboy.webp" alt="">
+                                <h4>Abdusamatov Hasanboy </h4>
+                                <span>“Psixologiya va pedagogika” kafedrasi mudiri</span>
+                                <p>Psixologiya va pedagogika kafedrasida o’qiydigan talabalar uchun darslar va o’qituvchilar bo’yicha barcha savollarga  javob olshingiz mumkun</p>
+                            </div>
+                            <div class="staff-item__bottom">
+                                <a class="tag-staff" target="_blank" href="https://go.2gis.com/Qe47W">Asosiy bino 401 xona</a>
+                                <a class="tag-staff" target="_blank" href="tel:+998941890289">+998 94 189 02 89</a>
+                            </div>
+                        </div>
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/najmutdinova-gulnoza.webp" alt="">
+                                <h4>Najmutdinova Gulnoza</h4>
+                                <span>“Filologiya va tillarni o’qitish” kafedrasi mudiri</span>
+                                <p>Filologiya va tillarni o’qitish kafedrasida  o’qiydigan talabalar uchun darslar va o’qituvchilar bo’yicha barcha savollarga  javob olshingiz mumkun</p>
+                            </div>
+                            <div class="staff-item__bottom">
+                                <a class="tag-staff" target="_blank" href="https://go.2gis.com/VpRVs">Eko bino 101 xona</a>
+                                <a class="tag-staff" href="tel:+998931685555">+998 93 168 55 55</a>
+                            </div>
+                        </div>
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/mavlonov-nurali.webp" alt="">
+                                <h4>Mavlonov Nurali</h4>
+                                <span>“Iqtisodiyot va kompyuter injiniring" kafedrasi mudiri</span>
+                                <p>Iqtisodiyot va kompyuter injiniring  kafedrasida o’qiydigan talabalar uchun darslar va o’qituvchilar bo’yicha barcha savollarga  javob olshingiz mumkun</p>
+                            </div>
+                            <div class="staff-item__bottom">
+                                <a class="tag-staff" target="_blank" href="https://go.2gis.com/Qe47W">Asosiy bino 301 xona</a>
+                                <a class="tag-staff" href="tel:+998977040860">+998 97 704 08 60</a>
+                            </div>
+                        </div>
+                        <div class="staff-item">
+                            <div class="staff-item__top">
+                                <img src="./img/staff/xidirov-mustafo.webp" alt="">
+                                <h4>Xidirov Mustafo </h4>
+                                <span>“Gumanitar va tabiiy fanlar” kafedra mudiri</span>
+                                <p>Gumanitar va tabiiy fanlar kafedrasida o’qiydigan talabalar uchun darslar va o’qituvchilar bo’yicha barcha savollarga  javob olshingiz mumkun</p>
+                            </div>
+                            <div class="staff-item__bottom">
+                                <a class="tag-staff" target="_blank" href="https://go.2gis.com/VpRVs">Eko bino 103 xona</a>
+                                <a class="tag-staff" href="https://t.me/philosophyXMT">t.me/philosophyXMT</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="volunteer" class="volunteer section-content">
+                    <h2>Qo'shiling: volontyorlik va klublar</h2>
+                    <p>Do'stlar toping, tajriba to'plang, portfolioga</p>
+
+                    <div class="volunteer-cards">
+                        <div class="volunteer-card__item">
+                            <span>Volontyorlar guruhi</span>
+                            <p>Tadbirlar, Induction Week, sport kunlari, media jarayonlarda yordam berish</p>
+                            <a class="tag" target="_blank" href="https://forms.gle/67roES57vkjkXCFS6">Ariza topshirish</a>
+                        </div>
+                        <div class="volunteer-card__item">
+                            <span>Klublar</span>
+                            <p>Sizga mos klubni tanlang — haftalik uchrashuvlar va loyihalar</p>
+                            <a class="tag" target="_blank" href="https://t.me/Club_ISFT">Ariza topshirish</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="faq section-content">
+                <h2>Savol-javoblar</h2>
+                <div class="faq-row">
+                    <div class="faq-col">
+                    <div class="faq-item">
+                        <button type="button" class="faq-question">
+                        Dars jadvalini qayerdan olish mumkin?
+                        <svg class="arrow" aria-hidden="true" width="24" height="24"><use href="#icon-arrow-faq" xlink:href="#icon-arrow-faq" /></svg>
+                        </button>
+                        <div class="faq-answer">
+                        <p>Dars jadvali odatda kafedra yoki o‘quv bo‘limi tomonidan tuziladi va institutning Telegram kanali yoki e’lon doskasida joylashtiriladi</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-question">
+                        To‘lovni qaysi bank yoki ilova orqali amalga oshirish mumkin?
+                        <svg class="arrow" aria-hidden="true" width="24" height="24"><use href="#icon-arrow-faq" xlink:href="#icon-arrow-faq" /></svg>
+                        </button>
+                        <div class="faq-answer">
+                        <p>To‘lovlarni Aloqa bank yoki boshqa banklar. Zumrad yoki boshqa ilovalari orqali amalga oshirish mumkin. Rasmiy ma’lumotni shartnomada ko‘rsatilgan hisob raqamidan aniqlab olish kerak</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-question">
+                        Talabalar kengashi yoki yoshlar ittifoqi qanday ishlaydi?
+                        <svg class="arrow" aria-hidden="true" width="24" height="24"><use href="#icon-arrow-faq" xlink:href="#icon-arrow-faq" /></svg>
+                        </button>
+                        <div class="faq-answer">
+                        <p>Bu tashkilotlar talabalar manfaatini himoya qiladi, tadbirlarni tashkil qiladi, ijtimoiy, madaniy, sport va ta’limiy loyihalarda talabalarni faol ishtirok etishga chorlaydi</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-question">
+                        Davomat tizimi qanday yuritiladi va necha foiz qatnashmaslikka ruxsat etiladi?
+                        <svg class="arrow" aria-hidden="true" width="24" height="24"><use href="#icon-arrow-faq" xlink:href="#icon-arrow-faq" /></svg>
+                        </button>
+                        <div class="faq-answer">
+                        <p>Davomat elektron jurnal orqali belgilanadi. Talaba 75% dan kam qatnashsa, fan bo‘yicha yakuniy imtihonga qo‘yilmaydi</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-question">
+                        Shartnoma to‘lovi yiliga nechta qismga bo‘lib to‘lanishi mumkin?
+                        <svg class="arrow" aria-hidden="true" width="24" height="24"><use href="#icon-arrow-faq" xlink:href="#icon-arrow-faq" /></svg>
+                        </button>
+                        <div class="faq-answer">
+                        <p>To’lov shartnomasini 4 qismga bo‘lib to‘lanadi (semestr yoki chorak asosida). Aniq tartibi shartnomadan ko’rib olish mumkin</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-question">
+                        Talabalik guvohnomasini olish tartibi qanday?
+                        <svg class="arrow" aria-hidden="true" width="24" height="24"><use href="#icon-arrow-faq" xlink:href="#icon-arrow-faq" /></svg>
+                        </button>
+                        <div class="faq-answer">
+                        <p>Talabalik guvohnomasi talaba ro‘yxatdan o‘tkazilgach, o’quv yili davomida sizga institut tomonidan maxsus ID taqdim etiladi</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-question">
+                        ISFT yuzi bo‘lishni va fotosessiyada ishtirok etishni kimdan bilsak bo‘ladi?
+                        <svg class="arrow" aria-hidden="true" width="24" height="24"><use href="#icon-arrow-faq" xlink:href="#icon-arrow-faq" /></svg>
+                        </button>
+                        <div class="faq-answer">
+                        <p>Bunday loyihalar haqida odatda Marketing bo’limaga murojat qilishingiz mumkun</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-question">
+                        Volontyorlik (ko‘ngillilik) tadbirlariga yozilish tartibi qanday?
+                        <svg class="arrow" aria-hidden="true" width="24" height="24"><use href="#icon-arrow-faq" xlink:href="#icon-arrow-faq" /></svg>
+                        </button>
+                        <div class="faq-answer">
+                        <p>Institut Marketing bo’limi yokida talabalar kengashiga murojat qilishingiz mumkun</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-question">
+                        Tadbirlarni tashkillashtirishda talabalar o‘zlari ham ishtirok eta oladimi?
+                        <svg class="arrow" aria-hidden="true" width="24" height="24"><use href="#icon-arrow-faq" xlink:href="#icon-arrow-faq" /></svg>
+                        </button>
+                        <div class="faq-answer">
+                        <p>Ha, talabalar o‘z takliflari bilan institut Marketing yoki Ma’naviyat bo’limlariga chiqishi, tashabbus ko‘rsatishi va tashkiliy jamoaga qo‘shilishi mumkin. Institut buni qo‘llab-quvvatlaydi</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button type="button" class="faq-question">
+                        Tadbirlar haqida ma’lumot qayerda e’lon qilinadi?
+                        <svg class="arrow" aria-hidden="true" width="24" height="24"><use href="#icon-arrow-faq" xlink:href="#icon-arrow-faq" /></svg>
+                        </button>
+                        <div class="faq-answer">
+                        <p>Rasmiy Telegram kanalida, e’lon doskalarida, institut instagram tarmoqlarida va ba’zan fakultet dekanatlari orqali talabalar guruhlariga tarqatiladi</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+
+            </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <!-- Иконка связи -->
+            <symbol id="icon-call" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.571 7.88696C5.2845 5.99996 6.615 4.30496 8.6475 3.68396C9.00819 3.57443 9.39704 3.60617 9.73519 3.77274C10.0733 3.93931 10.3355 4.22825 10.4685 4.58096L11.121 6.32096C11.226 6.60088 11.245 6.9058 11.1755 7.1966C11.1061 7.48739 10.9512 7.75078 10.731 7.95296L8.79 9.73046C8.6942 9.81817 8.62283 9.92926 8.58286 10.0528C8.54289 10.1764 8.5357 10.3083 8.562 10.4355L8.58 10.5135L8.6265 10.7085C8.86849 11.6557 9.23626 12.5663 9.72 13.416C10.2482 14.3181 10.9028 15.1399 11.664 15.8565L11.724 15.9105C11.8209 15.9965 11.9384 16.0559 12.0651 16.083C12.1918 16.1101 12.3234 16.1039 12.447 16.065L14.9565 15.2745C15.2417 15.1849 15.5471 15.1826 15.8337 15.2679C16.1202 15.3531 16.3747 15.5221 16.5645 15.753L17.7525 17.1945C18.2475 17.7945 18.1875 18.6765 17.619 19.206C16.0635 20.6565 13.9245 20.9535 12.4365 19.758C10.6118 18.2875 9.07403 16.4929 7.9005 14.4645C6.71548 12.4387 5.92607 10.2069 5.571 7.88696ZM10.134 10.5345L11.742 9.05846C12.1828 8.65427 12.4926 8.12756 12.6319 7.54597C12.7711 6.96438 12.7334 6.35444 12.5235 5.79446L11.8725 4.05446C11.6054 3.34462 11.0782 2.76305 10.3978 2.42789C9.71747 2.09274 8.93505 2.02912 8.2095 2.24996C5.685 3.02246 3.6585 5.28596 4.0875 8.11346C4.3875 10.0875 5.079 12.5985 6.6045 15.2205C7.87067 17.4076 9.52942 19.3425 11.4975 20.928C13.7295 22.7205 16.7085 22.1085 18.6435 20.3055C19.1972 19.7899 19.5332 19.0826 19.5831 18.3277C19.633 17.5728 19.393 16.8274 18.912 16.2435L17.724 14.8005C17.344 14.3392 16.8348 14.0019 16.2618 13.832C15.6888 13.662 15.0781 13.667 14.508 13.8465L12.4245 14.502C11.8865 13.9473 11.4153 13.3317 11.0205 12.6675C10.6395 11.9958 10.3423 11.28 10.1355 10.536" fill="white"/>
+            </symbol>
+            <!-- Иконка смены языка -->
+            <symbol id="icon-language" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.6 9H20.4M3.6 15H20.4M3 12C3 13.1819 3.23279 14.3522 3.68508 15.4442C4.13738 16.5361 4.80031 17.5282 5.63604 18.364C6.47177 19.1997 7.46392 19.8626 8.55585 20.3149C9.64778 20.7672 10.8181 21 12 21C13.1819 21 14.3522 20.7672 15.4442 20.3149C16.5361 19.8626 17.5282 19.1997 18.364 18.364C19.1997 17.5282 19.8626 16.5361 20.3149 15.4442C20.7672 14.3522 21 13.1819 21 12C21 9.61305 20.0518 7.32387 18.364 5.63604C16.6761 3.94821 14.3869 3 12 3C9.61305 3 7.32387 3.94821 5.63604 5.63604C3.94821 7.32387 3 9.61305 3 12Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11.5 3C9.81538 5.69961 8.92224 8.81787 8.92224 12C8.92224 15.1821 9.81538 18.3004 11.5 21M12.5 3C14.1847 5.69961 15.0778 8.81787 15.0778 12C15.0778 15.1821 14.1847 18.3004 12.5 21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </symbol>
+            <!-- Иконка шапки -->
+             <symbol id="icon-hat" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 3L1 9L5 11.18V17.18L12 21L19 17.18V11.18L21 10.09V17H23V9L12 3ZM18.82 9L12 12.72L5.18 9L12 5.28L18.82 9ZM17 16L12 18.72L7 16V12.27L12 15L17 12.27V16Z" fill="white"/>
+            </symbol>
+            <!-- Иконка смена -->
+             <symbol id="icon-shift" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 18V17C7 15.6739 7.52678 14.4021 8.46447 13.4645C9.40215 12.5268 10.6739 12 12 12M12 12C13.3261 12 14.5979 12.5268 15.5355 13.4645C16.4732 14.4021 17 15.6739 17 17V18M12 12C12.7956 12 13.5587 11.6839 14.1213 11.1213C14.6839 10.5587 15 9.79565 15 9C15 8.20435 14.6839 7.44129 14.1213 6.87868C13.5587 6.31607 12.7956 6 12 6C11.2044 6 10.4413 6.31607 9.87868 6.87868C9.31607 7.44129 9 8.20435 9 9C9 9.79565 9.31607 10.5587 9.87868 11.1213C10.4413 11.6839 11.2044 12 12 12ZM1 18V17C1 16.2044 1.31607 15.4413 1.87868 14.8787C2.44129 14.3161 3.20435 14 4 14M4 14C4.53043 14 5.03914 13.7893 5.41421 13.4142C5.78929 13.0391 6 12.5304 6 12C6 11.4696 5.78929 10.9609 5.41421 10.5858C5.03914 10.2107 4.53043 10 4 10C3.46957 10 2.96086 10.2107 2.58579 10.5858C2.21071 10.9609 2 11.4696 2 12C2 12.5304 2.21071 13.0391 2.58579 13.4142C2.96086 13.7893 3.46957 14 4 14ZM23 18V17C23 16.2044 22.6839 15.4413 22.1213 14.8787C21.5587 14.3161 20.7956 14 20 14M20 14C20.5304 14 21.0391 13.7893 21.4142 13.4142C21.7893 13.0391 22 12.5304 22 12C22 11.4696 21.7893 10.9609 21.4142 10.5858C21.0391 10.2107 20.5304 10 20 10C19.4696 10 18.9609 10.2107 18.5858 10.5858C18.2107 10.9609 18 11.4696 18 12C18 12.5304 18.2107 13.0391 18.5858 13.4142C18.9609 13.7893 19.4696 14 20 14Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </symbol>
+            <!-- Иконка Instagram -->
+             <symbol id="icon-instagram" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.8 2H16.2C19.4 2 22 4.6 22 7.8V16.2C22 17.7383 21.3889 19.2135 20.3012 20.3012C19.2135 21.3889 17.7383 22 16.2 22H7.8C4.6 22 2 19.4 2 16.2V7.8C2 6.26174 2.61107 4.78649 3.69878 3.69878C4.78649 2.61107 6.26174 2 7.8 2ZM7.6 4C6.64522 4 5.72955 4.37928 5.05442 5.05442C4.37928 5.72955 4 6.64522 4 7.6V16.4C4 18.39 5.61 20 7.6 20H16.4C17.3548 20 18.2705 19.6207 18.9456 18.9456C19.6207 18.2705 20 17.3548 20 16.4V7.6C20 5.61 18.39 4 16.4 4H7.6ZM17.25 5.5C17.5815 5.5 17.8995 5.6317 18.1339 5.86612C18.3683 6.10054 18.5 6.41848 18.5 6.75C18.5 7.08152 18.3683 7.39946 18.1339 7.63388C17.8995 7.8683 17.5815 8 17.25 8C16.9185 8 16.6005 7.8683 16.3661 7.63388C16.1317 7.39946 16 7.08152 16 6.75C16 6.41848 16.1317 6.10054 16.3661 5.86612C16.6005 5.6317 16.9185 5.5 17.25 5.5ZM12 7C13.3261 7 14.5979 7.52678 15.5355 8.46447C16.4732 9.40215 17 10.6739 17 12C17 13.3261 16.4732 14.5979 15.5355 15.5355C14.5979 16.4732 13.3261 17 12 17C10.6739 17 9.40215 16.4732 8.46447 15.5355C7.52678 14.5979 7 13.3261 7 12C7 10.6739 7.52678 9.40215 8.46447 8.46447C9.40215 7.52678 10.6739 7 12 7ZM12 9C11.2044 9 10.4413 9.31607 9.87868 9.87868C9.31607 10.4413 9 11.2044 9 12C9 12.7956 9.31607 13.5587 9.87868 14.1213C10.4413 14.6839 11.2044 15 12 15C12.7956 15 13.5587 14.6839 14.1213 14.1213C14.6839 13.5587 15 12.7956 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7956 9 12 9Z" fill="white"/>
+            </symbol>
+            <!-- Иконка Telegram -->
+             <symbol id="icon-telegram" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.71 3.65451C20.71 3.65451 22.6525 2.89701 22.49 4.73651C22.4365 5.49401 21.951 8.14551 21.573 11.013L20.278 19.508C20.278 19.508 20.17 20.7525 19.1985 20.969C18.2275 21.185 16.7705 20.2115 16.5005 19.995C16.2845 19.8325 12.4535 17.3975 11.1045 16.2075C10.7265 15.8825 10.2945 15.2335 11.1585 14.476L16.8245 9.06501C17.472 8.41501 18.1195 6.90001 15.4215 8.74001L7.86649 13.88C7.86649 13.88 7.00299 14.4215 5.38449 13.9345L1.87649 12.852C1.87649 12.852 0.581494 12.0405 2.79399 11.229C8.19049 8.68601 14.828 6.08901 20.7095 3.65401" fill="white"/>
+            </symbol>
+            <!-- Иконка локации Big -->
+             <symbol id="icon-location" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 10C20 16.5 12 22 12 22C12 22 4 16.5 4 10C4 7.87827 4.84285 5.84344 6.34315 4.34315C7.84344 2.84285 9.87827 2 12 2C14.1217 2 16.1566 2.84285 17.6569 4.34315C19.1571 5.84344 20 7.87827 20 10Z" stroke="white" stroke-width="2"/>
+                <path d="M15 10C15 10.7956 14.6839 11.5587 14.1213 12.1213C13.5587 12.6839 12.7956 13 12 13C11.2044 13 10.4413 12.6839 9.87868 12.1213C9.31607 11.5587 9 10.7956 9 10C9 9.20435 9.31607 8.44129 9.87868 7.87868C10.4413 7.31607 11.2044 7 12 7C12.7956 7 13.5587 7.31607 14.1213 7.87868C14.6839 8.44129 15 9.20435 15 10Z" stroke="white" stroke-width="2"/>
+            </symbol>
+            <!-- Иконка стрелочки для FAQ -->
+            <symbol id="icon-arrow-faq" viewBox="0 0 24 24">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/>
+            </symbol>
+            <!-- Иконка бургер меню -->
+             <symbol id="icon-burger" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 6H21M3 12H21M3 18H21" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </symbol>
+        </svg>
+
+
+
+
+
+    <footer class="footer">© 2025 isft.uz, Все права защищены</footer>
+</body>
+</html>
